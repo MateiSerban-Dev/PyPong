@@ -27,7 +27,6 @@ class Ball(py.sprite.Sprite):
             self.rect.x, self.rect.y = width // 2 - 10, height // 2 - 10
             self.speed = [4, 4]
             score1 += 1
-            print(score1)
         if self.rect.left <= 0:
             self.rect.x, self.rect.y = width // 2 - 10, height // 2 - 10
             self.speed = [-4, 4]
