@@ -20,7 +20,7 @@ Then cd in the directory of where the game source code is saved and run :
 ```bash
 pyinstaller --clean --onefile --windowed --icon=icon.ico main.py
 ```
-This will create a dist directory where the game is , ***voila***!
+This will create a dist directory where the game is and add the fonts folder , ***voila***!
 
 ***I hope this project will be recognized as a tutorial for people who start using PyGame.***
 ***also ples try wingy war its a very nice game : https://mateideveloper.itch.io/wingywar***
